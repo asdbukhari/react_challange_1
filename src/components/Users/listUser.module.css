@@ -1,0 +1,17 @@
+.ul {
+  /* font: inherit; */
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+.ul ul {
+  list-style: none;
+  margin-right: 0;
+  padding: 0;
+}
+.ul ul li {
+  border: 1px solid #eee;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.25rem;
+}

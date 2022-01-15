@@ -1,0 +1,39 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  position: fixed;
+  top: 35vh;
+  left: 10%;
+  width: 80%;
+  /* max-width: 40rem; */
+  /* margin: 0 auto; */
+  z-index: 100;
+  overflow: hidden;
+}
+.header {
+  font-weight: 600;
+
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  color: rgb(0, 0, 0);
+  background-color: lightblue;
+  background-color: lightgray;
+}
+.message {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+}
+.footer {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}

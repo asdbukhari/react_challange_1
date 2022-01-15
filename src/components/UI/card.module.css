@@ -1,0 +1,22 @@
+.card {
+  background-color: #fff;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+.modal {
+  /* position: absolute; */
+  height: 300px;
+  width: 600px;
+  /* top: 0;
+  left: 0;
+  position: fixed; */
+  background-color: azure;
+  color: #000;
+}
+.text {
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+}
